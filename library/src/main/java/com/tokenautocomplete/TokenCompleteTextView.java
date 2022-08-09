@@ -498,7 +498,7 @@ public abstract class TokenCompleteTextView extends MultiAutoCompleteTextView im
         lastLayout = getLayout(); //Used for checking text positions
     }
 
-    protected void handleFocus(boolean hasFocus) {
+    public void handleFocus(boolean hasFocus) {
         if (!hasFocus) {
             setSingleLine(true);
 
