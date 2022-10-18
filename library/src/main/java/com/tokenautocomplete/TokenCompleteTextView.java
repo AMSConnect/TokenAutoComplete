@@ -1,5 +1,6 @@
 package com.tokenautocomplete;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -48,6 +49,7 @@ import java.util.List;
  *
  * @author mgod
  */
+@SuppressLint("AppCompatCustomView")
 public abstract class TokenCompleteTextView extends MultiAutoCompleteTextView implements TextView.OnEditorActionListener {
     //When the token is deleted...
     public enum TokenDeleteStyle {
