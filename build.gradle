@@ -12,11 +12,11 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 36
 
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 34
+        minSdkVersion 29
+        targetSdkVersion 36
     }
 
     namespace 'com.tokenautocomplete'
